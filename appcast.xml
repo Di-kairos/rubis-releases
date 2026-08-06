@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Rubis Music</title>
+    <link>https://raw.githubusercontent.com/Di-kairos/rubis-releases/main/appcast.xml</link>
+    <description>Rubis Music release feed</description>
+    <language>en</language>
+    <item>
+      <title>0.2.0</title>
+      <pubDate>Thu, 06 Aug 2026 22:55:00 +0300</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.2.0/RubisMusic-0.2.0.dmg"
+        sparkle:edSignature="gD4w7lnoIB1ta25y453S7gntlw0VIoT+V5SZThzWC+H29NjTBhLx4oByh9vg73AHOKD24WMmIZAHFIPTfKQuBg=="
+        length="10853148"
+        type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
