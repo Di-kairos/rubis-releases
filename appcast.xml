@@ -6,6 +6,23 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.3.4</title>
+      <pubDate>Thu, 07 Aug 2026 21:30:00 +0300</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>0.3.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Now Playing is now a full-window focused screen: large cover of the playing album on the left, the queue on the right.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.3.4/RubisMusic-0.3.4.dmg"
+        sparkle:edSignature="DF1bljKjUJ8jLwmGjh20FkTzhBD8tJcp/Z2UMF2Zw/IH7NpkmUUtcGBFxnXnkxmXwO1yDJfKNuzNy6wRzJAMBA=="
+        length="11045085"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.3.3</title>
       <pubDate>Thu, 07 Aug 2026 21:05:00 +0300</pubDate>
       <sparkle:version>6</sparkle:version>
