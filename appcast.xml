@@ -6,6 +6,23 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.3.5</title>
+      <pubDate>Thu, 07 Aug 2026 21:45:00 +0300</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>0.3.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>New app icon: ruby with a waveform on a light background — no more gloomy Dock.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.3.5/RubisMusic-0.3.5.dmg"
+        sparkle:edSignature="NZA0RrxAqCjsnDeRsOw1dCsjtiM6QTym6WUd7zqr9EWrGCXKP65TDmUXEGcfhqhgLaxXcnrlQBuq97c1zNksCA=="
+        length="10218671"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.3.4</title>
       <pubDate>Thu, 07 Aug 2026 21:30:00 +0300</pubDate>
       <sparkle:version>7</sparkle:version>
