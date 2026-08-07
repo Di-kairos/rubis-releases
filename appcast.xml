@@ -6,6 +6,28 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.3.0</title>
+      <pubDate>Thu, 07 Aug 2026 20:00:00 +0300</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Optional menu bar icon with playback controls (Settings &gt; General).</li>
+          <li>Mini player can float above other windows.</li>
+          <li>Global media keys work when the app is in the background (requires Accessibility permission, off by default).</li>
+          <li>Playback position and selected sidebar section are restored on launch.</li>
+          <li>Respects Reduce Motion and Increase Contrast system settings; improved VoiceOver labels.</li>
+          <li>Fixed: album screen no longer collapses in a narrow detail column.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.3.0/RubisMusic-0.3.0.dmg"
+        sparkle:edSignature="EwGvzmMgdeJ/saARGbMSn2a0aJ9yQ8WmQAyzNwBmWUEgMTY08C4fe/aqQ9BSGazosw3rqjH4ybKJrv4ZE+P1Cw=="
+        length="10860567"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.2.1</title>
       <pubDate>Fri, 07 Aug 2026 12:20:00 +0300</pubDate>
       <sparkle:version>2</sparkle:version>
