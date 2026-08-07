@@ -6,6 +6,23 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.3.1</title>
+      <pubDate>Thu, 07 Aug 2026 20:30:00 +0300</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Fixed: adding many folders as sources broke the window layout and could crash the app. The sidebar sources list now scrolls.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.3.1/RubisMusic-0.3.1.dmg"
+        sparkle:edSignature="FudKKSXjWvrdDYiWrxinbsjE7uf9l0wl+qqe4M4AaoIQIXjVuFoO8UjKUVANH8HxZH6g7u1Cji0nfVQpImuvAQ=="
+        length="10833193"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.3.0</title>
       <pubDate>Thu, 07 Aug 2026 20:00:00 +0300</pubDate>
       <sparkle:version>3</sparkle:version>
