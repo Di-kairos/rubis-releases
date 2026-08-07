@@ -6,6 +6,25 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.3.2</title>
+      <pubDate>Thu, 07 Aug 2026 20:45:00 +0300</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Now Playing section shows the playback queue: current track marked, double-click jumps to a track.</li>
+          <li>Fixed: blue system focus ring around lists and grids on macOS 26.</li>
+          <li>Volume slider now uses the app accent color instead of system blue.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.3.2/RubisMusic-0.3.2.dmg"
+        sparkle:edSignature="2ZedS3eWVXxk6hLev5eaTtNOe9/R0Q78rw0Hk41tEsLDyKdidy70at2tn2Myzs5TXnJp9B8+1hu71xpluZeFDA=="
+        length="11023268"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.3.1</title>
       <pubDate>Thu, 07 Aug 2026 20:30:00 +0300</pubDate>
       <sparkle:version>4</sparkle:version>
