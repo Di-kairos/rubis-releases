@@ -6,6 +6,25 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.3.3</title>
+      <pubDate>Thu, 07 Aug 2026 21:05:00 +0300</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Output device picker in Settings &gt; Audio — choose your DAC without touching System Settings; the choice is applied on launch and takes effect from the next track.</li>
+          <li>Now Playing got a header with track count and total time.</li>
+          <li>Clicking a source in the sidebar opens Albums.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.3.3/RubisMusic-0.3.3.dmg"
+        sparkle:edSignature="fdM8CVebegz9kQDy34xnN9KNHgjwcoBcTLw62JbNZKFxfJvGhS8Avnp+Pyj8F3h35Z0jceGFJYoDnwQkztGFAQ=="
+        length="11038500"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.3.2</title>
       <pubDate>Thu, 07 Aug 2026 20:45:00 +0300</pubDate>
       <sparkle:version>5</sparkle:version>
