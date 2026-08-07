@@ -6,6 +6,27 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.2.1</title>
+      <pubDate>Fri, 07 Aug 2026 12:20:00 +0300</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Track list: sortable columns, multi-selection, artist and album shown.</li>
+          <li>Search results grouped into Artists, Albums and Tracks, with keyboard navigation.</li>
+          <li>Keyboard navigation in the album grid, artists and playlists.</li>
+          <li>Fixed: a space could not be typed into the search field.</li>
+          <li>Large libraries load and sort off the main thread, so the window no longer freezes.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.2.1/RubisMusic-0.2.1.dmg"
+        sparkle:edSignature="INGj5qQRk7pNYajENQnJCFxjajUItdFINcLU7fSOoRKwNxHmj9i31J9A6toIXUG0eCcY9SWlYgaxlVMYZQ/cBg=="
+        length="10980376"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.2.0</title>
       <pubDate>Thu, 06 Aug 2026 22:55:00 +0300</pubDate>
       <sparkle:version>1</sparkle:version>
