@@ -6,6 +6,24 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.4.0</title>
+      <pubDate>Sat, 08 Aug 2026 00:20:00 +0300</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>New design language, part 1 — "liner notes": the album screen reads like a record sleeve. Dotted leaders in the track list, a monospaced catalog line between hairline rules, italic serif artist, disc sections for multi-disc albums.</li>
+          <li>Now Playing speaks the same language.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.4.0/RubisMusic-0.4.0.dmg"
+        sparkle:edSignature="kbOj2HTHJrTf638FnP1jEeOVtR5JfuAuyejaE19c+QmU0Rdorl8P8xHPFP4//7HH7qhOzbAmi8T5+Jh8e79hDw=="
+        length="10249986"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.3.6</title>
       <pubDate>Thu, 07 Aug 2026 22:15:00 +0300</pubDate>
       <sparkle:version>9</sparkle:version>
