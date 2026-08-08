@@ -6,6 +6,24 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.6.1</title>
+      <pubDate>Sat, 08 Aug 2026 19:00:00 +0300</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Fixed: the track list on the Albums showcase was invisible — the shelf and the oversized cover squeezed it to zero height.</li>
+          <li>Fixed: an empty album row from a scan no longer shows up as an anonymous tile on the shelf.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.6.1/RubisMusic-0.6.1.dmg"
+        sparkle:edSignature="8jYO6+Yep1RqREARPqPZvaVNoG7RRln7vgqH2IKtaqp98T9VbLxoyxf46qyVqyUWjHpPHPWMNTCiXvHubhKuCg=="
+        length="10283231"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.6.0</title>
       <pubDate>Sat, 08 Aug 2026 18:00:00 +0300</pubDate>
       <sparkle:version>12</sparkle:version>
