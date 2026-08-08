@@ -6,6 +6,24 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.5.0</title>
+      <pubDate>Sat, 08 Aug 2026 17:15:00 +0300</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>New design language, part 2 — "instrument": the transport bar got a ruler scale with tick marks and a position needle instead of a slider, and the signal-path readout is now monospaced small caps, like on a measurement device.</li>
+          <li>Fixed: the sources list in Settings now scrolls with many folders.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.5.0/RubisMusic-0.5.0.dmg"
+        sparkle:edSignature="g8FHszQLn+CF51cfdViU5rNNtjHsMN48AeX+kwPSeRPdJjWOjgQQfOMb/kGMsH2PwPGz8g1mS2NJgZpGaJecDA=="
+        length="10253536"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.4.0</title>
       <pubDate>Sat, 08 Aug 2026 00:20:00 +0300</pubDate>
       <sparkle:version>10</sparkle:version>
