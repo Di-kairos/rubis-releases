@@ -6,6 +6,23 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.7.2</title>
+      <pubDate>Sat, 08 Aug 2026 21:30:00 +0300</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Liner notes now flow full-width right under the track list in Now Playing, scrolling with it — like notes on the back of a sleeve.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.7.2/RubisMusic-0.7.2.dmg"
+        sparkle:edSignature="HUe5r5EbVUHyCcSx+Sf/oHne8LmRfmegxKVPqco2N0AUL+XXR48+zhFGPpY5niiUDHiWFhY5Oc1Qr7IC7rmTBQ=="
+        length="10319481"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.7.1</title>
       <pubDate>Sat, 08 Aug 2026 21:00:00 +0300</pubDate>
       <sparkle:version>15</sparkle:version>
