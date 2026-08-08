@@ -6,6 +6,23 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.7.0</title>
+      <pubDate>Sat, 08 Aug 2026 20:15:00 +0300</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Liner notes on the album screen: a short annotation fetched from Wikipedia, or written by Claude when Wikipedia has nothing. Opt-in: Settings &gt; General &gt; Album notes (paste a Claude API key for the fallback). Fetched once per album, cached forever, source always credited.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.7.0/RubisMusic-0.7.0.dmg"
+        sparkle:edSignature="0AlpjWd5ZraDkf+76m3SsVJ4Nh6CeRE5JMlCcAS18xQFwC2B9+z68GXnvm6m2vYMFhy//niYvJOPWZAlBs6lAA=="
+        length="10322621"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.6.1</title>
       <pubDate>Sat, 08 Aug 2026 19:00:00 +0300</pubDate>
       <sparkle:version>13</sparkle:version>
