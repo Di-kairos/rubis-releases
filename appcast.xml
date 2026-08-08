@@ -6,6 +6,23 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.8.2</title>
+      <pubDate>Sat, 08 Aug 2026 21:00:00 +0300</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Final signing change. After this update, approve keychain access once with “Always Allow” — future updates will never ask again.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.8.2/RubisMusic-0.8.2.dmg"
+        sparkle:edSignature="1PLdCrM0Ujt1Kzwg8gBe/cCdDDph2yl2l8lZCRl/CdiS8olTL0k2V4D4HD4fJPIqnNNgBstsMlafVlp1vGTqDA=="
+        length="10366045"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.8.1</title>
       <pubDate>Sat, 08 Aug 2026 20:25:00 +0300</pubDate>
       <sparkle:version>18</sparkle:version>
