@@ -6,6 +6,24 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.8.3</title>
+      <pubDate>Sat, 08 Aug 2026 21:15:00 +0300</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>0.8.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Keychain dialogs are gone for good: the app re-adopts its API keys on first read, so macOS stops asking for your password.</li>
+          <li>The album shelf now shows a scroll bar and steps with ← → arrow keys (click a cover first).</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.8.3/RubisMusic-0.8.3.dmg"
+        sparkle:edSignature="vO1dlMgyAZAY9k76HmJxsh5w4/r/SpgYsxQv+xbITbPkJJgxGgqdw3W+YQ38Qhp3rfYkz3eyB9tvt4Kz1uTJCQ=="
+        length="10290363"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.8.2</title>
       <pubDate>Sat, 08 Aug 2026 21:00:00 +0300</pubDate>
       <sparkle:version>19</sparkle:version>
