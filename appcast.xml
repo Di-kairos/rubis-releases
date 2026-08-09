@@ -6,6 +6,24 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.8.5</title>
+      <pubDate>Sun, 09 Aug 2026 09:50:00 +0300</pubDate>
+      <sparkle:version>22</sparkle:version>
+      <sparkle:shortVersionString>0.8.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Signed with a Developer ID certificate and notarized by Apple: the app now opens with a double click on any Mac, with no right-click → Open and no Gatekeeper warning.</li>
+          <li>The keychain password prompt for your API keys is gone for good — the signature is stable and no longer self-issued.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.8.5/RubisMusic-0.8.5.dmg"
+        sparkle:edSignature="kcbZvybgSGtkmZEQWQUJh1ccOitflbXCqMg5gPK5V+71vVvfClTnZE8ovmuvbIQRJcmfDdOeIkqqv4oCG6jVCg=="
+        length="10360877"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.8.4</title>
       <pubDate>Sun, 09 Aug 2026 08:40:00 +0300</pubDate>
       <sparkle:version>21</sparkle:version>
