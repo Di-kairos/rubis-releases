@@ -6,6 +6,27 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.8.4</title>
+      <pubDate>Sun, 09 Aug 2026 08:40:00 +0300</pubDate>
+      <sparkle:version>21</sparkle:version>
+      <sparkle:shortVersionString>0.8.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Now Playing shows the queue and the liner notes at once: cover and queue on top, notes as a wide band below.</li>
+          <li>Liner notes are written by your chosen writer first (Claude or DeepSeek); Wikipedia steps in when there is no key or the album is unknown.</li>
+          <li>Wikipedia finds far more records — the old lookup only matched article titles, so most albums came back empty.</li>
+          <li>The album shelf, the queue and the notes share one scroll indicator: a gold thumb in a ruby setting, and you can drag it.</li>
+          <li>Fixed: the keychain password dialog kept returning because reading a key rewrote it and threw away your “Always Allow”.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.8.4/RubisMusic-0.8.4.dmg"
+        sparkle:edSignature="1apZ//WdRrWnE0Y5z6d+Kvi5X98iLUXT3TN/aVNQiXNQj20Sv6vtHD9UsadcWVh3tl/s9Vi82RbGV3OYq8yJAw=="
+        length="10239600"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.8.3</title>
       <pubDate>Sat, 08 Aug 2026 21:15:00 +0300</pubDate>
       <sparkle:version>20</sparkle:version>
