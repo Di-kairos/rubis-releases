@@ -6,6 +6,23 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.8.7</title>
+      <pubDate>Mon, 10 Aug 2026 20:52:00 +0300</pubDate>
+      <sparkle:version>24</sparkle:version>
+      <sparkle:shortVersionString>0.8.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>The player's appearance is now yours to set: Settings → General → Appearance keeps Rubis light or dark whatever macOS itself is doing, or follows the system as before.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.8.7/RubisMusic-0.8.7.dmg"
+        sparkle:edSignature="WOr5zJz1ahahzu4aXCG9jmKjcuNHlwk/mmh3m3mhFgAeYIJgAMbjzSztBgLaG5jycA49mZUjfAYhfnTF52KkBw=="
+        length="10370570"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.8.6</title>
       <pubDate>Sun, 09 Aug 2026 22:40:00 +0300</pubDate>
       <sparkle:version>23</sparkle:version>
