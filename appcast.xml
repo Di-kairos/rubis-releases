@@ -6,6 +6,29 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.8.9</title>
+      <pubDate>Tue, 11 Aug 2026 20:15:00 +0300</pubDate>
+      <sparkle:version>26</sparkle:version>
+      <sparkle:shortVersionString>0.8.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>History: a new sidebar section keeps a private record of what you played — top artists, top tracks, a recent feed, Clear history. The log stays in a file on your Mac.</li>
+          <li>DAC dossier: Settings → Audio asks your DAC what it can actually do — sample rates, bit depths, DoP ceiling, hardware volume — and can test exclusive access live.</li>
+          <li>Signal path receipt: the signal-path popover copies or saves a plain-text report of everything between the file and the DAC, fingerprinted with SHA-256.</li>
+          <li>Network panel: Settings → Network lists every outgoing request — host, reason, outcome, size.</li>
+          <li>Automatic updates: Rubis checks at launch and can install a new version on quit. Settings → General → Updates.</li>
+          <li>Playback errors now say what happened in words, including a device that refuses a sample rate.</li>
+          <li>Layout: Now Playing stays readable in a small window, Albums sizes the showcase to the window, Tracks hides columns instead of truncating them.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.8.9/RubisMusic-0.8.9.dmg"
+        sparkle:edSignature="H50NiUWhZ+0POhvzn8JOWybN2EySajiGk+M18ehtCmZNfeyWBZHotV8mKC3JOuheOZ8+F8Tn9R5ZL9nxLrSLDQ=="
+        length="10722164"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.8.8</title>
       <pubDate>Tue, 11 Aug 2026 00:20:00 +0300</pubDate>
       <sparkle:version>25</sparkle:version>
