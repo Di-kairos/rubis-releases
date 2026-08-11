@@ -6,6 +6,27 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.9.0</title>
+      <pubDate>Tue, 11 Aug 2026 21:55:00 +0300</pubDate>
+      <sparkle:version>27</sparkle:version>
+      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Your own server: point Rubis at a Subsonic/Navidrome library and its albums stand next to the local ones. Settings → Server — address, username, password (kept in the keychain), Test connection, Sync.</li>
+          <li>Same bit-perfect path for server tracks: a track is downloaded whole and played as a file, never transcoded. The next one downloads while the current plays, and the gapless seam is armed as soon as it lands.</li>
+          <li>The download cache has a ceiling — 8 GB by default, adjustable, cleared by hand. The least recently used files go first; the playing track and its successor are never evicted.</li>
+          <li>A server that stops answering greys out its own tracks, drops them from the queue and from shuffle, and says so in one line in the sidebar. Local music is untouched.</li>
+          <li>The network panel no longer logs a successful "no update available" check as a failure.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.9.0/RubisMusic-0.9.0.dmg"
+        sparkle:edSignature="eQD6XMyNWKmVA8uw9C22NmgepbnuM97jrAfAFSGN/67o+rWqDX1P3hJAwhj8G+djebsHnkbVqYE+kWCb065bCQ=="
+        length="10889631"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.8.9</title>
       <pubDate>Tue, 11 Aug 2026 20:15:00 +0300</pubDate>
       <sparkle:version>26</sparkle:version>
