@@ -6,6 +6,24 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.8.8</title>
+      <pubDate>Tue, 11 Aug 2026 00:20:00 +0300</pubDate>
+      <sparkle:version>25</sparkle:version>
+      <sparkle:shortVersionString>0.8.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Unplug your headphones and plug them back in: Play works again. Before, the player kept refusing to start until the track was launched by hand.</li>
+          <li>Moving an album from one source folder to another now moves it. It used to arrive in the new folder while a dimmed, unplayable copy stayed behind in the old one.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.8.8/RubisMusic-0.8.8.dmg"
+        sparkle:edSignature="oJS1Hsl5RnzcxGgc3KUHw7kj0jN0lYECGq+8SAF7im1wexCFDzRRL3oO27b9ubGiJnKoXFhgsvZOA4B0+FJwCw=="
+        length="10571542"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.8.7</title>
       <pubDate>Mon, 10 Aug 2026 20:52:00 +0300</pubDate>
       <sparkle:version>24</sparkle:version>
