@@ -6,6 +6,27 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.10.0</title>
+      <pubDate>Wed, 12 Aug 2026 20:45:00 +0300</pubDate>
+      <sparkle:version>28</sparkle:version>
+      <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>CUE sheets: a disc ripped as one file plus a .cue now appears as the tracks it actually holds. Titles and performers come from the sheet, and the boundaries are handed to the decoder, so the seams stay gapless and the bit-perfect path is unchanged.</li>
+          <li>audio-verify ships inside the app — the bit-perfect proof is now yours, not just the builder's: "Rubis Music.app/Contents/MacOS/audio-verify".</li>
+          <li>Signal path receipts are signed with an Ed25519 key belonging to your install, instead of a fingerprint anyone could recompute. Check one with "audio-verify --verify-receipt", or with openssl.</li>
+          <li>The window layout follows its width: the album screen opens into a spread above 1000 pt, Now Playing keeps the title readable in a wide window and the queue intact in a narrow one.</li>
+          <li>Rubis is now MIT-licensed, and the source repository is public.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.10.0/RubisMusic-0.10.0.dmg"
+        sparkle:edSignature="6NA2NhUd4gcQpRq/iI/1s8M7P+xPshOgerrgK5Z/9Du7ay5TznlSJGOVXwpfJfZ16+GA6XFmyvLyskRQ8NtAAQ=="
+        length="12615390"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.9.0</title>
       <pubDate>Tue, 11 Aug 2026 21:55:00 +0300</pubDate>
       <sparkle:version>27</sparkle:version>
