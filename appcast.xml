@@ -6,6 +6,24 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.10.2</title>
+      <pubDate>Sun, 16 Aug 2026 22:45:00 +0300</pubDate>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>0.10.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Covers are taken from the scans folder next to the music. A rip usually keeps no image beside the audio: the artwork lives in its own folder («Сканы», «Scans»), and half of it is the back, the disc label and booklet spreads — all heavier than the front. Rubis looks one level down and picks the face by how such folders are labelled: a name without a qualifier in brackets and without a page number.</li>
+          <li>An album already in your library without a cover gets one on the next scan, even though its files never changed. Press Rescan on the source once.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.10.2/RubisMusic-0.10.2.dmg"
+        sparkle:edSignature="5rgp2O+dqu3JdMMmsUMzHMeJW6k7d+VqDwmYt1oAM2SAyR4+0XPTj2vk1DwZIX+1IwUsfKZiM23DUsa6Kh8cBA=="
+        length="12627971"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.10.1</title>
       <pubDate>Sun, 16 Aug 2026 21:55:00 +0300</pubDate>
       <sparkle:version>29</sparkle:version>
