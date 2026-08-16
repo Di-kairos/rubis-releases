@@ -6,6 +6,24 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.10.1</title>
+      <pubDate>Sun, 16 Aug 2026 21:55:00 +0300</pubDate>
+      <sparkle:version>29</sparkle:version>
+      <sparkle:shortVersionString>0.10.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>A CUE sheet of a rip split into per-track files is read at last. Such a rip usually carries no tags at all — every title lives in the sheet, which Rubis used to drop: it points at the original .wav while the disk holds .flac under the same name, and a track that opens a new FILE puts its start after the FILE line. The album landed nameless and never appeared under Albums.</li>
+          <li>The sheet is now matched to the audio by base name, a track survives the FILE boundary, and a sheet with nothing to cut still gives the album its title, artist, year and track names. Press Rescan on the source once.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.10.1/RubisMusic-0.10.1.dmg"
+        sparkle:edSignature="f0nVCvxPwwN1Vt7NEKMGkkDCWYlvEXj6R9XVQvH8mPx3/HJwR7gYH9BGmi5IoqKuFI5QFciHk00Mw6KyhCLHBg=="
+        length="12558619"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.10.0</title>
       <pubDate>Wed, 12 Aug 2026 20:45:00 +0300</pubDate>
       <sparkle:version>28</sparkle:version>
