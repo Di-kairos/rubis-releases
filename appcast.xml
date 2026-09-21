@@ -6,6 +6,31 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.11.0</title>
+      <pubDate>Mon, 21 Sep 2026 07:45:00 +0300</pubDate>
+      <sparkle:version>31</sparkle:version>
+      <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>A file that moved is recognised by its content, not by size and date alone: two different files can no longer swap identities. The first scan after the update reads a few small pieces of every file once.</li>
+          <li>DSD goes out as PCM until you tick "This DAC decodes DoP" for your DAC in Settings → Audio.</li>
+          <li>Playback transport, gapless and CUE seeking were hardened after an external audit; playlists survive deduplication, CUE rebuilds and server syncs.</li>
+          <li>Secondary text is easier to read; playlist edits can be undone.</li>
+          <li>A source folder that can no longer be read shows one line in the sidebar instead of failing silently.</li>
+          <li>Add to Playlist in every track's context menu, including a new playlist.</li>
+          <li>Shuffle and repeat are remembered between launches, and the queue comes back in the same order.</li>
+          <li>While a track downloads from your server, Play becomes Cancel; after a failure it becomes Retry.</li>
+          <li>Arrow keys browse the album shelf when it has focus.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.11.0/RubisMusic-0.11.0.dmg"
+        sparkle:edSignature="6jcS08LVsY/mErljAxTh9ryTTJigZd4CX64VNegYJW3PavaLgqlQirxHpHoGnuXANHbBUQcu3yvWhCnASxhhAg=="
+        length="12780332"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.10.2</title>
       <pubDate>Sun, 16 Aug 2026 22:45:00 +0300</pubDate>
       <sparkle:version>30</sparkle:version>
