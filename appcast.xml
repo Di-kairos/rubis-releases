@@ -6,6 +6,24 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.11.2</title>
+      <pubDate>Sun, 01 Nov 2026 20:15:00 +0200</pubDate>
+      <sparkle:version>33</sparkle:version>
+      <sparkle:shortVersionString>0.11.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>A new playlist asks for its name before it exists: press Esc and nothing is left behind.</li>
+          <li>In an album and in a playlist, click, ⌘-click and ⇧-click select several tracks at once; the context menu acts on the whole selection, and a double-click or Return plays from the topmost selected track.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.11.2/RubisMusic-0.11.2.dmg"
+        sparkle:edSignature="U+dXk7whCL5Z94cBm6uKCBaFl7q6c3xohC5eTawsGcbqOuKbADt45BeA9vqsJnEhuN8n8RIJ5Xavs3CPeXXNBw=="
+        length="12839245"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.11.1</title>
       <pubDate>Sun, 01 Nov 2026 19:00:00 +0200</pubDate>
       <sparkle:version>32</sparkle:version>
