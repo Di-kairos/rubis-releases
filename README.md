@@ -6,8 +6,9 @@
 
 <p align="center">
   Hi-fi music player for macOS: bit-perfect playback, exclusive DAC access,
-  gapless, DSD. This repo hosts the builds and the update feed — the source
-  is private.
+  gapless, DSD. This repo hosts the builds and the update feed; the source
+  lives in <a href="https://github.com/Di-kairos/Rubis">Di-kairos/Rubis</a>
+  under the MIT licence.
 </p>
 
 ## Install
@@ -15,9 +16,14 @@
 1. Download the latest `RubisMusic-x.y.z.dmg` from
    [Releases](https://github.com/Di-kairos/rubis-releases/releases).
 2. Open the DMG and drag **Rubis Music** to Applications.
-3. First launch: right-click the app → **Open** (the build is ad-hoc signed).
+3. Launch it with a double click. The build is signed with a Developer ID
+   certificate and notarized by Apple — no right-click → Open, no Gatekeeper
+   warning.
 
 Requires macOS 15 or newer, Apple silicon.
+
+The binary bundles libraries from other people, two of them under LGPL terms —
+see [the third-party notice](https://github.com/Di-kairos/Rubis/blob/main/docs/third-party.md).
 
 ## Updates
 
