@@ -6,6 +6,24 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.11.3</title>
+      <pubDate>Thu, 05 Nov 2026 20:54:08 +0200</pubDate>
+      <sparkle:version>34</sparkle:version>
+      <sparkle:shortVersionString>0.11.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>The app now carries the licence texts of the open-source components it uses.</li>
+          <li>The bit-perfect checker shipped inside the app is the current build again: at 192 kHz its capture no longer reports a silence that was not there.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.11.3/RubisMusic-0.11.3.dmg"
+        sparkle:edSignature="cw81rhGD9ktu16a7Wg8AakwknMKscyn31/NSw87itIWM8uZPc/karAA8hXwb0tmzf7UCfBlhrmdyArDUEtAECg=="
+        length="12820411"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.11.2</title>
       <pubDate>Sun, 01 Nov 2026 20:15:00 +0200</pubDate>
       <sparkle:version>33</sparkle:version>
