@@ -6,6 +6,29 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.11.4</title>
+      <pubDate>Sun, 08 Nov 2026 19:10:00 +0200</pubDate>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:shortVersionString>0.11.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>DSD256 (.dsf) plays: through DoP on a DAC you have marked as decoding it.</li>
+          <li>The output is switched to the DAC's full bit depth before each track. A DAC that sat at 16 bit no longer cuts 24-bit music down, and DoP reaches it intact instead of as hiss.</li>
+          <li>When macOS moves its default output while Rubis holds your DAC, playback stays on the DAC instead of jumping to the speakers.</li>
+          <li>Artists and Playlists no longer crash on macOS 27.</li>
+          <li>Every artist shows their albums, including compilations they play on; duplicate artist entries merge on the next scan.</li>
+          <li>Removing a source also clears its offline and unreadable lines.</li>
+          <li>Settings › Audio shows the device card in full.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.11.4/RubisMusic-0.11.4.dmg"
+        sparkle:edSignature="TeqMC0U60eqRGDl+DNz747QBeyyi49gbWRrXcJ90NgV5hJ4DmV7fqZQ2+MFzGY+InK+v/XZmE56NUgTXSEOiCw=="
+        length="12794847"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.11.3</title>
       <pubDate>Thu, 05 Nov 2026 20:54:08 +0200</pubDate>
       <sparkle:version>34</sparkle:version>
