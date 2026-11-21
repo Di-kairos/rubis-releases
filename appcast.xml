@@ -6,6 +6,24 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.11.5</title>
+      <pubDate>Sat, 21 Nov 2026 08:40:00 +0200</pubDate>
+      <sparkle:version>36</sparkle:version>
+      <sparkle:shortVersionString>0.11.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Repeat One loops the track without a gap, the same way the tracks of an album follow each other.</li>
+          <li>The signal path popover shows long values in full instead of cutting them off.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.11.5/RubisMusic-0.11.5.dmg"
+        sparkle:edSignature="9uT72NedhQykdpGu8d8Jr+gV1B8Z+sbb+ZfN89StOlhfvzlchu5ie3+7yzTNc14Pnwhg6QU78pvARaY56wGyDQ=="
+        length="12873267"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.11.4</title>
       <pubDate>Sun, 08 Nov 2026 19:10:00 +0200</pubDate>
       <sparkle:version>35</sparkle:version>
