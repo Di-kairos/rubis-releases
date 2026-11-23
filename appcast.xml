@@ -6,6 +6,24 @@
     <description>Rubis Music release feed</description>
     <language>en</language>
     <item>
+      <title>0.11.6</title>
+      <pubDate>Mon, 23 Nov 2026 08:07:24 +0200</pubDate>
+      <sparkle:version>37</sparkle:version>
+      <sparkle:shortVersionString>0.11.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Double-click plays a track on the first try in Now Playing, the album shelf and search, at your Mac's double-click speed.</li>
+          <li>Settings › Audio shows an unplugged DAC as "not connected" instead of an empty Output device field.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/Di-kairos/rubis-releases/releases/download/v0.11.6/RubisMusic-0.11.6.dmg"
+        sparkle:edSignature="b5l3awManrXkrP0u75t3GBtHM048x6IH9XgWU3OeSEfhVxx5Q0qg7kjS5DSCvKBk6GIxx0jjg1sxUBDjo0GuAQ=="
+        length="12869311"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.11.5</title>
       <pubDate>Sat, 21 Nov 2026 08:40:00 +0200</pubDate>
       <sparkle:version>36</sparkle:version>
